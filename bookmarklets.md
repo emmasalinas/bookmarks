@@ -23,8 +23,14 @@ javascript: (function(){document.querySelector('video').currentTime = document.q
 javascript: (function(){document.querySelector("video").playbackRate = 2})()
 ```
 ### Make videos 25% faster
-```javascript: (function(){ document.querySelector("video").playbackRate = 1.25*document.querySelector("video").playbackRate})()```
+```
+javascript: (function(){ document.querySelector("video").playbackRate = 1.25*document.querySelector("video").playbackRate})()
+```
 ### Make videos 25% slower
-```javascript: (function(){ document.querySelector("video").playbackRate = 0.75*document.querySelector("video").playbackRate  })()```
+```
+javascript: (function(){ document.querySelector("video").playbackRate = 0.75*document.querySelector("video").playbackRate  })()
+```
 ### See past instances of the website you're on @KonradIT
-```javascript: (function(){window.location.assign('http://web.archive.org/web/*/' + window.location.hostname)})()```
+```
+javascript: (function(){window.location.assign('http://web.archive.org/web/*/' + window.location.hostname)})()
+```
